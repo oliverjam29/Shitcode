@@ -1,0 +1,65 @@
+header {
+    align-content: center;
+    background-color: black;
+    padding: 15px;
+}
+
+.nav-item {
+    background-color: grey;
+    border: 5px;
+    padding: 1.5 rem;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: grey;
+}
+
+.container-fluid{
+    margin-top: 100px;
+}
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+----------------------------------------------------- Main ------------------------------------------------------------------------------------------------------- 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+.body {
+    max-height: 100vh;
+    align-content: center;
+    justify-content: center;
+    background-color: beige;
+   
+    
+}
+
+.center {
+    align-self: center;
+    
+}
+
+.wrap {
+    align-items: center;
+  
+}
+
+.col-sm {
+    background-color: rgb(70, 70, 70);
+    padding: 1.5rem;
+    border-radius: 15px;
+    margin-top: 3rem;
+    margin: 3%;
+    font-size: 1.5rem;
+
+}
+
