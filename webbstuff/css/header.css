@@ -63,3 +63,13 @@ header {
 
 }
 
+.presentationImgs {
+    max-width: 20%;
+    float: left;
+    padding: 10px;
+}
+.presentationImgs2 {
+    max-width: 20%;
+    float: right;
+    padding: 10px;
+}
