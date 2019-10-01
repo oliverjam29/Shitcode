@@ -33,12 +33,18 @@ header {
     max-height: 100vh;
     align-content: center;
     justify-content: center;
-    background-color: beige;
-    
-   
-   
-    
+    background-color: beige; 
 }
+
+
+#showtime{
+    font-size: 20px;
+    background: pink;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+
 
 .center {
     align-self: center;
