@@ -19,3 +19,8 @@ function imgClick(e) {
     //btyder opacitin
     e.target.style.opacity = opacity;
 }
+
+
+
+
+
