@@ -83,35 +83,78 @@ form{
     margin: 3%;
 }
 
-.containerimg {
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+:root {
+    /* Set fade in duration */
+    --fade-time: 0.5s;
+  }
+  
+  body {
+    margin: 20px;
+    padding: 0;
+    background: #333;
+  }
+  
+  .containerimg {
     max-width: 760px;
     margin: auto;
-    background: white;
-}
-
-.main-img img, 
-.imgs img {
+    border: #fff solid 3px;
+    background: #fff;
+  }
+  
+  .main-img img,
+  .imgs img {
     width: 100%;
-
-}
-
-.imgs {
+  }
+  
+  .imgs {
     display: grid;
-    grid-template-columns: repeat (4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 5px;
-}
+  }
+  
+  .imgs img {
+    cursor: pointer;
+  }
 
-
-@keyframes fadeIn{
+  .imgScale {
+      max-height: 100px;
+      max-width: 200px;
+  }
+  
+  /* Fade in animation */
+  @keyframes fadeIn {
     to {
-        opacity: 1;
+      opacity: 1;
     }
-}
-
-.fade-in {
+  }
+  
+  .fade-in {
     opacity: 0;
-    Animation: fadeIn 0.5s ease-in 1 forwards;
-}
+    animation: fadeIn var(--fade-time) ease-in 1 forwards;
+  }
+  
+  /* Media Queries */
+  @media(max-width: 600px) {
+    .imgs {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .btnStyle {
+      align-content: center;
+      justify-content: center;
+  }
+
+  #current {
+      height: 1000px;
+      width: 1000px;
+  }
+
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 ----------------------------------------------------- Footer ------------------------------------------------------------------------------------------------------- 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
