@@ -2,13 +2,6 @@ const current = document.querySelector('#current');
 const imgs = document.querySelectorAll('.imgs img');
 
 
-const btnN = document.querySelector(".btn4Chan");
-const btn4C = document.querySelector(".btnGames");
-const btnG = document.querySelector(".btnNature");
-
-btn4C.addEventListener("click", btn);
-btnG.addEventListener("click", btn);
-btn4C.addEventListener("click", btn);
 
 
 var opacity = 0.4;
@@ -42,7 +35,4 @@ function imgClick(e) {
 
 
 
-function btn(){
-    console.log("good");
-}
 
