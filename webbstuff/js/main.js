@@ -24,3 +24,8 @@ function imgClick(e) {
         console.log(e.target);
     }
 }
+
+
+
+
+
