@@ -1,10 +1,11 @@
 
+//here we setinterval to print time without milliseconds
+//we can set milliseconds and it is possible for the timer to
+//skip certain seconds if it is high 
 setInterval(printTime);
-printTime();
-
 function printTime() {
    
-     
+     //here we make a var called today
     var today = new Date();
     var h = today.getHours();
     var m = today.getMinutes();
