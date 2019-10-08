@@ -1,5 +1,9 @@
 const current = document.querySelector('#current');
 const imgs = document.querySelectorAll('.imgs img');
+
+
+
+
 var opacity = 0.4;
 
 imgs[0].style.opacity = opacity;
@@ -25,6 +29,9 @@ function imgClick(e) {
     }
 }
 
+
+
+  
 
 
 
