@@ -1,19 +1,17 @@
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 ----------------------------------------------------- Header ------------------------------------------------------------------------------------------------------- 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 header {
     align-content: center;
-    background-color: black;
+    background-color: grey;
     padding: 15px;
 }
 
-
-a{
- 
-}
+a {}
 
 .nav-item {
-    background-color: grey;
+    background-color: rgb(192, 189, 189);
     border: 5px;
     padding: 1.5 rem;
     border-radius: 10px;
@@ -28,37 +26,35 @@ a{
     color: grey;
 }
 
-.container-fluid{
+.container-fluid {
     margin-top: 100px;
 }
+
+
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 ----------------------------------------------------- Main ------------------------------------------------------------------------------------------------------- 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 .body {
     max-height: 100vh;
     align-content: center;
     justify-content: center;
-    background-color: beige; 
+    background-color: beige;
 }
 
-
-#showtime{
+#showtime {
     font-size: 20px;
-    background: pink;
+    background: rgb(51, 51, 51);
     border-radius: 15px;
     padding: 20px;
 }
 
-
-
 .center {
     align-self: center;
-    
 }
 
 .wrap {
     align-items: center;
-  
 }
 
 .col-sm {
@@ -68,27 +64,23 @@ a{
     margin-top: 3rem;
     margin: 3%;
     font-size: 1.5rem;
-
 }
 
 .presentationImgs {
     max-width: 20%;
     float: left;
     padding: 10px;
-    
 }
+
 .presentationImgs2 {
     max-width: 20%;
     float: right;
     padding: 10px;
-   
 }
 
-form{
+form {
     margin: 3%;
 }
-
-
 
 
 /*-------------------------------------------------------------------------------------------------------------------------------------*/
@@ -96,69 +88,74 @@ form{
 :root {
     /* Set fade in duration */
     --fade-time: 0.5s;
-  }
-  
-  body {
+}
+
+body {
     margin: 20px;
     padding: 0;
     background: #333;
-  }
-  
-  .containerimg {
+}
+
+.containerimg {
     max-width: 760px;
     margin: auto;
     border: #fff solid 3px;
     background: #fff;
-  }
-  
-  .main-img img,
-  .imgs img {
+}
+
+.main-img img,
+.imgs img {
     width: 100%;
-  }
-  
-  .imgs {
+}
+
+.imgs {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 5px;
-  }
-  
-  .imgs img {
-    cursor: pointer;
-  }
+}
 
-  .imgScale {
-      max-height: 100px;
-      max-width: 200px;
-  }
-  
-  /* Fade in animation */
-  @keyframes fadeIn {
+.imgs img {
+    cursor: pointer;
+}
+
+.imgScale {
+    max-height: 100px;
+    max-width: 200px;
+}
+
+
+/* Fade in animation */
+
+@keyframes fadeIn {
     to {
-      opacity: 1;
+        opacity: 1;
     }
-  }
-  
-  .fade-in {
+}
+
+.fade-in {
     opacity: 0;
     animation: fadeIn var(--fade-time) ease-in 1 forwards;
-  }
-  
-  /* Media Queries */
-  @media(max-width: 600px) {
+}
+
+
+/* Media Queries */
+
+@media(max-width: 600px) {
     .imgs {
-      grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
-  }
+}
 
-  .btnStyle {
-      align-content: center;
-      justify-content: center;
-  }
+.btnStyle {
+    align-content: center;
+    justify-content: center;
+}
 
-  #current {
-      height: 800px;
-      width: 800px;
-  }
+#current {
+    height: 400px;
+    width: 750px;
+}
+
 
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 ----------------------------------------------------- Footer ------------------------------------------------------------------------------------------------------- 
