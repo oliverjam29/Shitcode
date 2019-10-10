@@ -106,7 +106,7 @@ function btnChan(){
     document.getElementById("Nature5" ).style.display="none";
     document.getElementById("Nature6" ).style.display="none";
 
-    document.getElementById("4Chan1" ).style.display="block";
+    document.getElementById("Animal1" ).style.display="block";
     document.getElementById("4Chan2" ).style.display="block";
     document.getElementById("4Chan3" ).style.display="block";
     document.getElementById("4Chan4" ).style.display="block";
