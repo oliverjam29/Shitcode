@@ -145,8 +145,9 @@ body {
 }
 
 .btnStyle {
-    align-content: center;
-    justify-content: center;
+ display: block;
+ margin: 2%;
+ text-align: center;
 }
 
 #current {
